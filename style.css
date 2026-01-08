@@ -7,6 +7,17 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+/* buttons */
+.btn-white {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 15px 16px 16px 0;
+    margin-left: 10px;
+}
 .btn-green {
     background-color: #469165;
     color: #ffffff;
@@ -14,7 +25,21 @@ body {
     font-family: 600;
     border: none;
     border-radius: 4px;
-    padding: 12.5px 16px;
+    padding: 16.5px 16px 16.5px 10px;
+}
+.btn-green:hover, .btn-white:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    /* IDEA: must do this letter */
+}
+#header-banner .btn-green {
+    padding: 16.5px 0 16.5px 16px;
+}
+.btn-green img {
+    margin: -5px 18px -5px 10px;
+}
+.btn-white img {
+    margin: -5px 10px -5px 16px;
 }
 
 
@@ -35,6 +60,58 @@ nav img {
 .nav-content ul li a {
     text-decoration: none;
     color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#header-banner {
+    background-image:  url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    height: 674px;
+    padding-bottom: 40px;
+}
+#head-main {
+    width: 85%;
+}
+#head-main h1 {
+    opacity: 0.9;
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    margin: 16px auto;
+}
+.head-main-p {
+    font-size: 18px;
+    line-height: 33px;
+    color: #ffffff;
+    margin: 32px;
+}
+#head-main h1 span {
+    color: #469165;
+}
+.head-small {
+    border-radius: 1000px;
+    background-color: #ffffff;
+    color: #469165;
+    margin: 0 auto;
+    width: 229px;
+    padding: 8px 12px;
+    text-align: center;
+}
+.head-small img {
+    margin: -3px 6px -3px 0;
+}
+.head-small p {
     font-size: 16px;
     font-weight: 500;
 }
