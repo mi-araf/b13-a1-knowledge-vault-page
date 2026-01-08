@@ -178,9 +178,31 @@ nav img {
 }
 
 
+#main-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    width: 85%;
+    gap: 60px;
+}
 .main-part-content h6 {
     font-weight: 500;
     color: #469165;
     font-size: 16px;
     line-height: 20px;
+    padding: 7px 0 16px 0px;
+}
+.checked-part {
+    margin-top: 40px;
+}
+.checked-part p {
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.checked-part p img {
+    margin: -4px 6px -4px 0;
 }
