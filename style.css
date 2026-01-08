@@ -115,3 +115,72 @@ nav img {
     font-size: 16px;
     font-weight: 500;
 }
+
+#main-cards {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 60px 0;
+}
+#main-cards h3, .main-part-content h3 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px auto 16px auto;
+}
+#main-cards p, .main-part-content-ptext {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+.png {
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card h5 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding: 24px 0;
+}
+.card-container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 44px auto;
+    gap: 24px;
+}
+.card {
+    background-color: white;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.06);
+    padding: 24px;
+    /* center the postion of card --> */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.card p {
+    width: 274px;
+    height: 40px;
+}
+
+
+.main-part-content h6 {
+    font-weight: 500;
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+}
