@@ -129,7 +129,8 @@ nav {
     border-radius: 8px;
     box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.06);
     padding: 24px;
-    /* center the postion of card --> */
+
+    /* centering --> card postion --> */
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -195,6 +196,7 @@ nav {
 #end-part button {
     margin: 24px 0 16px;
 }
+
 
 footer {
     background-color: #001931;
