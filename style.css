@@ -293,4 +293,7 @@ footer hr {
 #end-part .btn-green  img {
     margin-right: 0px;
 }
-/* TODO: box-shadow for "Get Early Access" button */
+/* INFO: box-shadow -- "Get Early Access" btn */
+#end-part button {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
