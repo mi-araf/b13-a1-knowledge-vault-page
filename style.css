@@ -199,6 +199,32 @@ nav img {
     margin: 24px 0 16px;
 }
 
+footer {
+    height: 384px;
+    background-color: #001931;
+    margin: 120px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer hr {
+    width: 85%;
+    border: 1px solid #E5E7EB;
+    opacity: 0.2;
+}
+.footer-social p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.footer-end p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
 
 /* buttons */
 .btn-white {
