@@ -7,40 +7,6 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
-/* buttons */
-.btn-white {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: rgba(255, 0, 0, 0);
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    padding: 15px 16px 16px 0;
-    margin-left: 10px;
-}
-.btn-green {
-    background-color: #469165;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: 600;
-    border: none;
-    border-radius: 4px;
-    padding: 16.5px 16px 16.5px 10px;
-}
-.btn-green:hover, .btn-white:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    /* IDEA: must do this letter */
-}
-#header-banner .btn-green {
-    padding: 16.5px 0 16.5px 16px;
-}
-.btn-green img {
-    margin: -5px 18px -5px 10px;
-}
-.btn-white img {
-    margin: -5px 10px -5px 16px;
-}
 
 
 nav {
@@ -180,9 +146,9 @@ nav img {
 
 #main-part {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 120px;
+    margin: 120px auto;
     width: 85%;
     gap: 60px;
 }
@@ -191,7 +157,7 @@ nav img {
     color: #469165;
     font-size: 16px;
     line-height: 20px;
-    padding: 7px 0 16px 0px;
+    padding: 4px 0 16px 0px;
 }
 .checked-part {
     margin-top: 40px;
@@ -206,3 +172,70 @@ nav img {
 .checked-part p img {
     margin: -4px 6px -4px 0;
 }
+
+#end-part {
+    background-color: #F7F6F2;
+    width: 85%;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#end-part h2 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+#end-part p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+#end-part button {
+    margin: 24px 0 16px;
+}
+
+
+/* buttons */
+.btn-white {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 15px 16px 16px 0;
+    margin-left: 10px;
+}
+.btn-green {
+    background-color: #469165;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 600;
+    border: none;
+    border-radius: 4px;
+    /* padding: 16.5px 16px 16.5px 16px; */
+    padding: 12px 16px;
+}
+.btn-green:hover, .btn-white:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    /* IDEA: must do this letter */
+}
+#header-banner .btn-green {
+    padding: 16.5px 0 16.5px 16px;
+}
+.btn-green img {
+    margin: -5px 18px -5px 10px;
+}
+.btn-white img {
+    margin: -5px 10px -5px 16px;
+}
+#end-part .btn-green  img {
+    margin-right: 0px;
+}
+/* TODO: box-shadow for "Get Early Access" button */
