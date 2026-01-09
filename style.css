@@ -13,10 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 120px;
-}
-nav img {
-    margin-top: 16px;
+    margin: 16px 120px;
 }
 .nav-content ul {
     display: flex;
@@ -244,7 +241,6 @@ footer hr {
 }
 
 
-
 .footer-end p {
     font-size: 16px;
     line-height: 24px;
@@ -263,7 +259,7 @@ footer hr {
     background-color: rgba(255, 0, 0, 0);
     border: 1px solid #ffffff;
     border-radius: 4px;
-    padding: 15px 16px 16px 0;
+    padding: 16px 16px 16px 0;
     margin-left: 10px;
 }
 .btn-green {
@@ -278,7 +274,7 @@ footer hr {
 .btn-green:hover, .btn-white:hover {
     cursor: pointer;
     opacity: 0.8;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.45);
 }
 #header-banner .btn-green {
     padding: 16.5px 0 16.5px 16px;
